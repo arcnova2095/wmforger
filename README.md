@@ -6,7 +6,7 @@ We tested all available watermark decoders, including:
 - **TrustMark:** `Q`, `P`, `C`
 - **blind_watermark**
 
-Each decoder was evaluated on every `WM_1`–`WM_8` source set using several payload lengths. For each candidate, all 25 images were decoded, and a majority vote was taken for every bit. The agreement between individual decodes and the majority message was used to identify the scheme. A decoder was considered a match when the agreement exceeded **85%**, while incorrect decoders typically achieved only **~50%** agreement.
+Each decoder was evaluated on every `WM_1`-`WM_8` source set using several payload lengths. For each candidate, all 25 images were decoded, and a majority vote was taken for every bit. The agreement between individual decodes and the majority message was used to identify the scheme. A decoder was considered a match when the agreement exceeded **85%**, while incorrect decoders typically achieved only **~50%** agreement.
 
 Identified schemes:
 
