@@ -35,7 +35,7 @@ Since the original encoder was reused, no additional embedding-strength tuning w
 
 ## Blind Fingerprinting
 
-The remaining schemes (WM_3–WM_6) could not be identified using any available decoder. For these schemes, we estimated the watermark as a shared additive fingerprint across the 25 watermarked images following the *simple averaging* idea of Yang *et al.* (NeurIPS 2024).
+The remaining schemes (WM_3-WM_6) could not be identified using any available decoder. For these schemes, we estimated the watermark as a shared additive fingerprint across the 25 watermarked images following the *simple averaging* idea of Yang *et al.* (NeurIPS 2024).
 
 The fingerprint was estimated by:
 
