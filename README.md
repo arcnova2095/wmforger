@@ -39,7 +39,7 @@ The remaining schemes (WM_3–WM_6) could not be identified using any available 
 
 The fingerprint was estimated by:
 
-- Computing a spatial high-pass residual (image − blurred image).
+- Computing a spatial high-pass residual (image - blurred image).
 - Computing a frequency-domain band-pass residual using FFT.
 - Aggregating residuals across all images using the **median**.
 - Applying **MAD-based** normalization for robustness.
